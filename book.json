@@ -3,7 +3,9 @@
         "fontsettings"
     ],
     "pluginsConfig": {
-        "fontSettings": {
+        "fontsettings": {
+            "theme": "white",
+            "family": "sans",
             "size": 4
         }
     }
