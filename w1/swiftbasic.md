@@ -10,6 +10,6 @@
 ---
 和其他語言一樣
 
-<div class="alert alert-info">
+{% hint style='info' %}
 Important info: this note needs to be highlighted
-</div>
+{% endhint %}

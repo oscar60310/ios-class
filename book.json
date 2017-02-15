@@ -1,7 +1,6 @@
 {
     "plugins": [
-        "fontsettings",
-        "theme-default"
+        "fontsettings","hints"
     ],
     "pluginsConfig": {
         "fontSettings": {
