@@ -1,7 +1,15 @@
 {
-     "pluginsConfig": {
+    "plugins": [
+        "fontsettings"
+    ],
+    "pluginsConfig": {
         "fontSettings": {
             "size": 4
+        },
+        "fontsettings": {
+            "theme": "white",
+            "family": "sans",
+            "size": 2
         }
     }
 }
