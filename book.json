@@ -1,4 +1,5 @@
 {
+    "plugins": ["-fontsettings"],
      "pluginsConfig": {
         "fontSettings": {
             "size": 4
