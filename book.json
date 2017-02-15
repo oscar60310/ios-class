@@ -10,6 +10,12 @@
             "theme": "white",
             "family": "sans",
             "size": 2
+        },
+        "hints": {
+            "info": "fa fa-info-circle",
+            "tip": "fa fa-mortar-board",
+            "danger": "fa fa-exclamation-circle",
+            "working": "fa fa-wrench"
         }
     }
 }
