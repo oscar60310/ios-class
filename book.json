@@ -1,6 +1,8 @@
 {
-    "plugins": ["-fontsettings"],
-     "pluginsConfig": {
+    "plugins": [
+        "fontsettings"
+    ],
+    "pluginsConfig": {
         "fontSettings": {
             "size": 4
         }
