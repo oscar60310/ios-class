@@ -25,5 +25,18 @@ var b: Double = 3 // Double
 var dream = false // Bool 布林值 true 或 false
 var s = "hello world" // String 字串
 ```
+在 Swift 中，大概有這幾種型別，使用時有幾點必須注意
+- 宣告變數時，要給一個初始值，下方這段程式無法成功編譯
+```swift
+var a
+a = 1
+```
+- 不能改變型別
+```swift
+var s = "hello world" // String
+s = "Hi!" // 可以執行，因為同樣是 String
+s = 1234 // 無法執行
+```
+
 
 
