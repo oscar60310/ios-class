@@ -54,7 +54,7 @@ for i in 1...5{
 print(i)
 ```
 
-# IF 條件
+## IF 條件
 if 後面接著一個判斷條件，是 True 的話才會執行
 ```swift
 var score = 59
@@ -67,3 +67,30 @@ else{
 ```
 因為 score = 59 ， >= (大於或等於) 60 不成立，會執行 else 後方大括號的程式。
 > 上面的程式要顯示 `pass` 需要怎麼修改呢？
+
+使用 else if 可以判斷更多的條件，試著分辨出下面的分數：
+A 80~100  B 70~80 C 60~70 D 50~60 E 0~50
+
+## SWITCH 條件
+條件判斷比較多時，我們會使用 swift
+```swift
+var score = 30
+
+switch score {
+case 80...100:
+    print("A")
+case 70...79:
+    print("B")
+case 60...69:
+    print("C")
+case 50...59:
+    print("D")
+default:
+    print("E")
+}
+
+```
+
+
+
+
