@@ -51,5 +51,11 @@ class ViewController: UIViewController {
 6. 我們回到 storyboard 中，找到 Object library，介面的元件都會放在這裡，沒有這個區塊的同學請點選 View > Utilities > show object library。
 ![](/assets/w26.png)
 
-7. 拉一個 Label 到畫面的中央（顯示藍線）
+7. 拉一個 Label 到畫面的中央（顯示藍線），切換到屬性頁面，在 `Text` 的地方打上一些文字。
 ![](/assets/w27.png)
+
+8. 修改其他屬性，讓文字看起來長得好看些。
+![](/assets/w28.png)
+
+9. 接著拉出一個 button 放在字的底下
+![](/assets/w29.png)
