@@ -24,5 +24,32 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 當程式開啟時就會呼叫這個 function ，如果你要修改進入頁面的話，可以在這裡 Override 他。
 > 有看到 func 中參數部分前面有個底線嗎？ 猜猜看那代表什麼
 
-3. 接著我們來實作頁面，這個範例中我們使用 `StoryBoard` 來製作
+3. 接著我們來實作頁面，這個範例中我們使用 `StoryBoard` 來製作，他可以讓你像說故事一樣完成介面設計，不需要打任何的程式，當然也還有其他發法來產生畫面。請按照下圖點選 **Main.storyboard** > **View Controller Scene** > 右方的第三個圖示 identity inspector
 ![](/assets/w25.png)
+
+4. 一個 ViewController 控制一個畫面，在右方 Custom Class > Class，寫著 ViewController，代表著他受 ViewController.swift 所控制，我們可以按下右方的箭頭前往看看她長什麼樣。
+```swift
+import UIKit
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+}
+```
+最上面 import UIKit 代表我們會使用 UIKit 這個函式庫，很像 c 的 include 、 C# using 、 Java import 等等
+
+5. 接著有兩個 function ，分別是 viewDidLoad 和 didReceiveMemoryWarnin，看名字應該不難猜到什麼時候會被執行。分別是程式載入後和記憶體警告，值得注意的是前面的 `override` ，我們在剛剛也提過這個詞，在父類別 `UIViewController` 中已經有定義這兩個 function 了，但我們可以取代他，如果沒有到，把兩個 function 都刪掉也沒問題。
+> 該怎麼看父類別呢？
+
+6. 我們回到 storyboard 中，找到 Object library，介面的元件都會放在這裡，沒有這個區塊的同學請點選 View > Utilities > show object library。
+![](/assets/w26.png)
+
+7. 拉一個 Label 到畫面的中央（顯示藍線）
+![](/assets/w27.png)
