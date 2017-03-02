@@ -16,7 +16,7 @@ HI Cindy
 上面程式中，我們定義了 sayHI 這個函式名稱，說明使用函式必須傳入 `Name` 這個 String。
 
 ## 回傳 Return
-函式可以回傳值給呼叫的城市，例如下方的函式會將兩數相加。
+函式可以回傳值給呼叫的程式，例如下方的函式會將兩數相加。
 ```swift
 func add(a: Int,b: Int) -> Int {
     return a + b
@@ -34,3 +34,8 @@ func grade(score: Int) -> String{
 ```
 ## Tuples
 Swift 把任意數值組合起來，在函式回傳中非常好用！
+```swift
+let http404error = (404, "Not Found")
+let (code, description) = http404error
+print(code)
+```
