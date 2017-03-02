@@ -59,3 +59,5 @@ class ViewController: UIViewController {
 
 9. 接著拉出一個 button 放在字的底下
 ![](/assets/w29.png)
+
+所有的屬性都可以在右方找到喔，大家可以看看還有哪些東西可以修改，改壞了頂多刪掉重拉而已。
