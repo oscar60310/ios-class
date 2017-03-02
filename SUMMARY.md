@@ -7,7 +7,7 @@
   * [運算、邏輯](w1/cal.md)
   * [函式](w1/function.md)
 * [W2 介面設計、元件使用](w2-yuan.md)
-  * [開啟專案](w2/open.md)
+  * [第一個專案](w2/open.md)
 * W3 程式邏輯
 * W4 專案實作
 * W5 CocoaPods
