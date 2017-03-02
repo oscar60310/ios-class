@@ -8,6 +8,7 @@
   * [函式](w1/function.md)
 * [W2 介面設計、元件使用](w2-yuan.md)
   * [第一個專案](w2/open.md)
+  * [程式部分](w2/code.md)
 * W3 程式邏輯
 * W4 專案實作
 * W5 CocoaPods
