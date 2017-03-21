@@ -72,7 +72,7 @@ else{
 A 80~100  B 70~80 C 60~70 D 50~60 E 0~50
 
 ## SWITCH 條件
-條件判斷比較多時，我們會使用 swift
+條件判斷比較多時，我們會使用 switch
 ```swift
 var score = 30
 
@@ -90,7 +90,6 @@ default:
 }
 
 ```
-
 
 
 
